@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
     <Project Path="src/PostService/PostService.csproj" />
+    <Project Path="src/SearchService/SearchService.csproj" />
   </Folder>
 </Solution>

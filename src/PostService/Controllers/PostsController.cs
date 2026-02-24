@@ -1,5 +1,6 @@
 using System;
 using AutoMapper;
+using AutoMapper.QueryableExtensions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PostService.Data;
@@ -22,13 +23,16 @@ public class PostsController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<List<PostDto>>> GetAllPosts()
+    public async Task<ActionResult<List<PostDto>>> GetAllPosts(string date)
     {
-        var posts = await _context.Posts
-            .OrderByDescending(p => p.CreatedAt)
-            .ToListAsync();
+        var query = _context.Posts.OrderByDescending(p => p.CreatedAt).AsQueryable();
 
-        return _mapper.Map<List<PostDto>>(posts);
+        if (!string.IsNullOrEmpty(date))
+        {
+            query = query.Where(p => p.UpdatedAt.CompareTo(DateTime.Parse(date).ToUniversalTime()) > 0);
+        }
+
+        return await query.ProjectTo<PostDto>(_mapper.ConfigurationProvider).ToListAsync();
     }
 
     [HttpGet("{id}")]

@@ -1,0 +1,202 @@
+[
+    {
+        "id": "16cf8243-894c-4290-b8b0-09bf2f231a92",
+        "title": "Gezamenlijke maaltijden voor alleenstaanden",
+        "content": "Eet je vaak alleen en vind je dat niet zo gezellig? Iedere donderdagavond organiseren we een gemeenschappelijke maaltijd in het wijkcentrum. Iedereen neemt iets mee en we eten samen. Aanmelden is niet nodig, gewoon komen!",
+        "imageUrl": "https://example.com/images/community-dinner.jpg",
+        "createdAt": "2026-02-22T09:56:36.183176Z",
+        "updatedAt": "2026-02-22T09:56:36.183177Z",
+        "author": "Marijke van der Pol",
+        "views": 0
+    },
+    {
+        "id": "0f1a8a88-5044-4838-bded-476f6df34161",
+        "title": "Buurt WhatsApp groep voor noodhulp",
+        "content": "We hebben een WhatsApp groep voor directe buurtHulp opgezet. Voor spoedige vragen zoals: 'kan iemand even melk voor me halen?' of 'wie heeft een ladder?'. Stuur me een privé bericht voor de link!",
+        "imageUrl": "https://example.com/images/whatsapp-group.jpg",
+        "createdAt": "2026-02-22T08:56:36.183185Z",
+        "updatedAt": "2026-02-22T08:56:36.183185Z",
+        "author": "Digitale Buur Coordinator",
+        "views": 0
+    },
+    {
+        "id": "eee36b43-273a-424c-b084-e6705699e7c1",
+        "title": "Speelgoed ruilmarkt voor kinderen",
+        "content": "Donderdag van 15-18 uur speelgoed ruilmarkt op het schoolplein. Kinderen kunnen speelgoed meenemen waar ze uitgespeeld zijn en iets anders uitzoeken. Leuk voor kinderen en goed voor het milieu!",
+        "imageUrl": "https://example.com/images/toy-swap.jpg",
+        "createdAt": "2026-02-22T07:56:36.183184Z",
+        "updatedAt": "2026-02-22T07:56:36.183184Z",
+        "author": "Oudercomité Basisschool",
+        "views": 0
+    },
+    {
+        "id": "3b8f529b-bac8-4ba8-9912-c3b8d13ab28e",
+        "title": "Senior uitjes organiseren",
+        "content": "Ik organiseer leuke uitjes voor senioren in onze buurt: museumbezoeken, wandelingen, theatervoorstellingen. Volgende week gaan we naar het stadspark voor een picknick. Wie heeft zin om mee te gaan?",
+        "imageUrl": "https://example.com/images/senior-outings.jpg",
+        "createdAt": "2026-02-22T05:56:36.183185Z",
+        "updatedAt": "2026-02-22T05:56:36.183185Z",
+        "author": "Uitjes Organisator Els",
+        "views": 0
+    },
+    {
+        "id": "7e03119f-28de-468a-b784-b70ada87d2e0",
+        "title": "Fiets reparatie workshop zondag",
+        "content": "Zondag 14:00 in de garage achter het wijkcentrum: leer je eigen fiets repareren! We behandelen lekke banden, remmen afstellen en versnellingen. Breng je eigen fiets mee. Gratis deelname!",
+        "imageUrl": "https://example.com/images/bike-repair.jpg",
+        "createdAt": "2026-02-21T10:56:36.183183Z",
+        "updatedAt": "2026-02-21T10:56:36.183183Z",
+        "author": "Fiets Dokter",
+        "views": 0
+    },
+    {
+        "id": "187066c0-ec7e-4849-a58f-a06e4f16b52b",
+        "title": "Buurtschoonmaak actie zaterdag",
+        "content": "Zaterdag 9:00 verzamelen bij het park voor een buurtschoonmaak actie. Handschoenen en zakken worden verstrekt. Na afloop koffie en taart in het wijkcentrum. Samen maken we onze buurt nog mooier!",
+        "imageUrl": "https://example.com/images/cleanup.jpg",
+        "createdAt": "2026-02-20T10:56:36.183179Z",
+        "updatedAt": "2026-02-20T10:56:36.183179Z",
+        "author": "Gemeente Vrijwilligers",
+        "views": 0
+    },
+    {
+        "id": "e913f811-b131-4930-bd52-b22581a00781",
+        "title": "Kleding ruilbeurs dit weekend",
+        "content": "Zaterdag van 10-16 uur organiseren we een kleding ruilbeurs in de gemeenschapszaal. Breng kleding mee die je niet meer draagt en neem mee wat je leuk vindt. Gratis toegang, wel graag van tevoren aanmelden via email.",
+        "imageUrl": "https://example.com/images/clothing-swap.jpg",
+        "createdAt": "2026-02-19T10:56:36.183178Z",
+        "updatedAt": "2026-02-19T10:56:36.183178Z",
+        "author": "Sofie Hermans",
+        "views": 0
+    },
+    {
+        "id": "2b161161-72a0-44f4-84c8-cdedc37f2ba0",
+        "title": "Oppas gezocht voor sporadische avonden",
+        "content": "Zoek een betrouwbare oppas voor onze 2 kinderen (6 en 9 jaar) voor af en toe een avondje uit. Meestal 19:00-23:00. Kinderen zijn makkelijk en gaan vroeg naar bed. Goede betaling!",
+        "imageUrl": "https://example.com/images/babysitting.jpg",
+        "createdAt": "2026-02-18T10:56:36.183183Z",
+        "updatedAt": "2026-02-18T10:56:36.183183Z",
+        "author": "Familie Scholten",
+        "views": 0
+    },
+    {
+        "id": "6a7e4bb8-1df2-48b6-b093-8433ad50fd33",
+        "title": "Zoek iemand voor hond uitlaten",
+        "content": "Door werkomstandigheden kan ik mijn hond Max (golden retriever) niet altijd genoeg uitlaten. Zoek iemand die 2-3x per week een uurtje met hem wil wandelen. Natuurlijk betaal ik hiervoor!",
+        "imageUrl": "https://example.com/images/dog-walking.jpg",
+        "createdAt": "2026-02-17T10:56:36.183179Z",
+        "updatedAt": "2026-02-17T10:56:36.183179Z",
+        "author": "Jan Bakker",
+        "views": 0
+    },
+    {
+        "id": "65fb751c-0644-49fb-9e64-f228cbc44056",
+        "title": "Computer hulp voor senioren",
+        "content": "Iedere woensdagmiddag van 14-16 uur help ik gratis senioren met computer-, tablet- en smartphone vragen. In de bibliotheek, zaal 2. Neem je apparaat gerust mee!",
+        "imageUrl": "https://example.com/images/tech-help.jpg",
+        "createdAt": "2026-02-16T10:56:36.183179Z",
+        "updatedAt": "2026-02-16T10:56:36.183179Z",
+        "author": "Lisa Chen",
+        "views": 0
+    },
+    {
+        "id": "8ad89237-1f48-49bc-8985-673943f8e4f6",
+        "title": "Buurtbibliotheek: Boeken ruilen en delen",
+        "content": "We hebben een kleine buurtbibliotheek opgezet in het parkje aan de Kerkstraat. Iedereen kan gratis boeken lenen en inbrengen. Er staan al romans, kinderboeken en informatieve boeken. Kom gerust een kijkje nemen!",
+        "imageUrl": "https://example.com/images/little-library.jpg",
+        "createdAt": "2026-02-15T10:56:36.183177Z",
+        "updatedAt": "2026-02-15T10:56:36.183177Z",
+        "author": "Peter de Vries",
+        "views": 0
+    },
+    {
+        "id": "0b1194b3-2718-4374-9686-f716b26b8ed9",
+        "title": "Gratis hulp bij tuinonderhoud voor senioren",
+        "content": "Ik ben student en wil graag iets terugdoen voor onze gemeenschap. Ik bied gratis hulp aan bij tuinonderhoud voor senioren in onze buurt. Denk aan onkruid wieden, gras maaien, heggen knippen. Stuur me een berichtje als je hulp nodig hebt!",
+        "imageUrl": "https://unsplash.com/photos/-LJmvGXl6yg/download?force=true",
+        "createdAt": "2026-02-14T10:56:36.183176Z",
+        "updatedAt": "2026-02-14T10:56:36.183176Z",
+        "author": "Tom Jansen",
+        "views": 0
+    },
+    {
+        "id": "62ab0902-e0df-44d6-965b-ddcd5581ed38",
+        "title": "Taalles Nederlands voor beginners",
+        "content": "Elke dinsdag en donderdag van 19-20:30 geven we gratis Nederlandse taallessen voor beginners. In de bibliotheek, zaal 3. Iedereen is welkom, ook kinderen. Alleen vooraf aanmelden via email.",
+        "imageUrl": "https://example.com/images/language-class.jpg",
+        "createdAt": "2026-02-13T10:56:36.183183Z",
+        "updatedAt": "2026-02-13T10:56:36.183183Z",
+        "author": "Taalcafé Vrijwilligers",
+        "views": 0
+    },
+    {
+        "id": "20ac4d4e-4eb6-4ef0-8ee3-e3a91e8df11e",
+        "title": "Buurthulp: Wie kan mij helpen met boodschappen?",
+        "content": "Hallo buurtbewoners! Door een blessure kan ik deze week niet zelf boodschappen doen. Is er iemand die mij zou kunnen helpen? Ik woon aan de Hoofdstraat 25. Graag zou ik woensdagmiddag de boodschappen willen doen. Natuurlijk vergoed ik alle kosten en geef ik een kleine attentie voor de moeite!",
+        "imageUrl": "https://unsplash.com/photos/-LJmvGXl6yg/download?force=true",
+        "createdAt": "2026-02-12T10:56:36.183097Z",
+        "updatedAt": "2026-02-12T10:56:36.183128Z",
+        "author": "Maria van der Berg",
+        "views": 0
+    },
+    {
+        "id": "296101d0-a778-4f7f-b227-f6772cb71e1d",
+        "title": "Buurtmoestuin heeft hulp nodig",
+        "content": "Onze buurtmoestuin groeit en bloeit, maar we kunnen wel wat extra handjes gebruiken! Vooral voor wieden, zaaien en oogsten. Ervaring niet nodig, enthousiasme wel! Elke zaterdag van 10-12 uur.",
+        "imageUrl": "https://example.com/images/community-garden.jpg",
+        "createdAt": "2026-02-11T10:56:36.183183Z",
+        "updatedAt": "2026-02-11T10:56:36.183183Z",
+        "author": "Groene Vingers Collectief",
+        "views": 0
+    },
+    {
+        "id": "80e771f3-2c7d-4998-9138-80d1c6b5a1b2",
+        "title": "Hulp bij verhuizing aangeboden",
+        "content": "Ik heb een busje en wat vrienden die willen helpen. Bied gratis hulp aan bij kleine verhuizingen binnen de stad. Alleen benzinekosten vergoed is genoeg. Stuur een berichtje als je hulp nodig hebt!",
+        "imageUrl": "https://example.com/images/moving-help.jpg",
+        "createdAt": "2026-02-10T10:56:36.183179Z",
+        "updatedAt": "2026-02-10T10:56:36.183179Z",
+        "author": "Mike van Dijk",
+        "views": 0
+    },
+    {
+        "id": "d8a9ebc7-bfa2-44e9-a702-222ebb8a1e29",
+        "title": "Huiswerkbegeleiding voor kinderen",
+        "content": "Iedere maandag en woensdag van 16-18 uur bieden we gratis huiswerkbegeleiding aan voor basisschool kinderen. In de bibliotheek, stil gedeelte. Aanmelden niet nodig, gewoon langskomen!",
+        "imageUrl": "https://example.com/images/homework-help.jpg",
+        "createdAt": "2026-02-09T10:56:36.183184Z",
+        "updatedAt": "2026-02-09T10:56:36.183184Z",
+        "author": "Onderwijsgevende Vrijwilligers",
+        "views": 0
+    },
+    {
+        "id": "1c65bd35-330f-41de-addd-11f1c30d9e8e",
+        "title": "Kookworkshop gezonde maaltijden",
+        "content": "Zaterdag 11:00-15:00 kookworkshop 'Gezond en Goedkoop' in de keuken van het wijkcentrum. Leer 5 gezonde maaltijden maken voor onder de 5 euro per persoon. Inclusief lunch! Kosten: €10 per persoon.",
+        "imageUrl": "https://example.com/images/cooking-workshop.jpg",
+        "createdAt": "2026-02-08T10:56:36.183184Z",
+        "updatedAt": "2026-02-08T10:56:36.183184Z",
+        "author": "Voedingscoach Anne",
+        "views": 0
+    },
+    {
+        "id": "3784ffc9-d8b8-4da6-9352-a556bb4785b8",
+        "title": "Gratis reparatie café elke maand",
+        "content": "Eerste zaterdag van de maand van 13-17 uur is er reparatie café in het wijkcentrum. Breng kapotte spullen mee en wij proberen ze samen te repareren. Gratis service, donaties welkom!",
+        "imageUrl": "https://example.com/images/repair-cafe.jpg",
+        "createdAt": "2026-02-07T10:56:36.183182Z",
+        "updatedAt": "2026-02-07T10:56:36.183182Z",
+        "author": "Rob Reparatie",
+        "views": 0
+    },
+    {
+        "id": "c7c16f12-dbc1-4e3b-9ce7-1541c854defd",
+        "title": "Eerste hulp cursus voor buurtbewoners",
+        "content": "Over 2 weken starten we met een eerste hulp cursus voor buurtbewoners. 4 avonden van 19:30-21:30. Kosten €25 per persoon. Na afloop krijg je een officieel certificaat. Inschrijven via email!",
+        "imageUrl": "https://example.com/images/first-aid.jpg",
+        "createdAt": "2026-02-06T10:56:36.183184Z",
+        "updatedAt": "2026-02-06T10:56:36.183184Z",
+        "author": "Rode Kruis Afdeling",
+        "views": 0
+    }
+]
