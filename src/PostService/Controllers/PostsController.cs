@@ -1,6 +1,8 @@
 using System;
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
+using Contracts;
+using MassTransit;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PostService.Data;
@@ -15,11 +17,13 @@ public class PostsController : ControllerBase
 {
     private readonly IMapper _mapper;
     private readonly DataContext _context;
+    private readonly IPublishEndpoint _publishEndpoint;
 
-    public PostsController(DataContext context, IMapper mapper)
+    public PostsController(DataContext context, IMapper mapper, IPublishEndpoint publishEndpoint)
     {
         _context = context;
         _mapper = mapper;
+        _publishEndpoint = publishEndpoint;
     }
 
     [HttpGet]
@@ -52,13 +56,17 @@ public class PostsController : ControllerBase
 
         post.Author = "Anonymous";
 
-        _context.Posts.Add(post);
+        _context.Posts.Add(post);        
+
+        var newPost = _mapper.Map<PostDto>(post);
+
+        await _publishEndpoint.Publish(_mapper.Map<PostCreated>(newPost));   
         
-        var result = await _context.SaveChangesAsync() > 0;
+        var result = await _context.SaveChangesAsync() > 0;        
 
         if (!result) return BadRequest("could not save changes to the database");
 
-        return CreatedAtAction(nameof(GetPostById), new { id = post.Id }, _mapper.Map<PostDto>(post));
+        return CreatedAtAction(nameof(GetPostById), new { id = post.Id }, newPost);
     }
 
     [HttpPut("{id}")]

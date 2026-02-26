@@ -1,5 +1,6 @@
 using System;
 using AutoMapper;
+using Contracts;
 using PostService.DTOs;
 using PostService.Entities;
 
@@ -12,5 +13,6 @@ public class MappingProfiles : Profile
         CreateMap<Post, PostDto>();
         CreateMap<CreatePostDto, Post>();
         CreateMap<UpdatePostDto, Post>();
+        CreateMap<PostDto, PostCreated>();
     }
 }

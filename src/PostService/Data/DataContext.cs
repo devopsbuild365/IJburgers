@@ -1,4 +1,5 @@
 using System;
+using MassTransit;
 using Microsoft.EntityFrameworkCore;
 using PostService.Entities;
 
@@ -11,4 +12,12 @@ public class DataContext : DbContext
     }
 
     public DbSet<Post> Posts { get; set; }
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+
+        modelBuilder.AddInboxStateEntity();
+        modelBuilder.AddOutboxMessageEntity();
+        modelBuilder.AddOutboxStateEntity();
+    }
 }
