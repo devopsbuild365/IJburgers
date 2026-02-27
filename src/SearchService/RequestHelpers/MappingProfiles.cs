@@ -10,5 +10,6 @@ public class MappingProfiles : Profile
     public MappingProfiles()
     {
         CreateMap<PostCreated, Post>();
+        CreateMap<PostUpdated, Post>();
     }
 }
